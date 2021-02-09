@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="#ecf0f1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="5dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+
+
+            <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout1"
+
+                android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lblName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="monospace"
+                        android:layout_marginRight="10dp"
+                        android:text="Naduns"/>
+
+
+                    <TextView
+                        android:id="@+id/lbldatetime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:fontFamily="monospace"
+                        android:text="Create date"
+                        android:layout_toRightOf="@+id/lblName"
+                        android:textColor="@color/colorBlack"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lblcrdlimtx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:text="Credit Limit Rs:"/>
+
+                <TextView
+                    android:id="@+id/lblcrdlimt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:textStyle="normal"
+                    android:layout_toRightOf="@id/lblcrdlimtx"
+                    android:textColor="@color/colorBlack"
+                    android:text="1000.00"/>
+
+            </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/lblcommentlbl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:layout_alignParentLeft="true"
+                        android:text="Comment : "/>
+
+    <TextView
+        android:id="@+id/lblcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:textColor="@color/colorblue"
+        android:layout_toRightOf="@id/lblcommentlbl"
+        android:text="Customer will increase the sale"/>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/lblreasonlbl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:layout_alignParentLeft="true"
+                        android:text="Reason : "/>
+
+    <TextView
+        android:id="@+id/lblreason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorRedOrange"
+        android:text="Reason"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:layout_toRightOf="@id/lblreasonlbl"
+        />
+
+                </RelativeLayout>
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_alignParentRight="true"
+                >
+
+                <TextView
+                    android:id="@+id/txtlevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorwhite"
+                    android:fontFamily="monospace"
+                    android:background="@drawable/circle_text"
+                    android:gravity="center"
+                    />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

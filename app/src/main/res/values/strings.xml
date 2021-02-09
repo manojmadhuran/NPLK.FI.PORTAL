@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Customer Management Portal</string> <!--Customer Management Portal-->
+
+    <string name="year_prompt">YEAR</string>
+    <string name="month_prompt">MONTH</string>
+    <string name="status_prompt">STATUS</string>
+    <string name="searchbutton">SEARCH</string>
+    <string-array name="year_arr">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="month_arr">
+        <item>JAN - 1</item>
+        <item>FEB - 2</item>
+        <item>MAR - 3</item>
+        <item>APR - 4</item>
+        <item>MAY - 5</item>
+        <item>JUN - 6</item>
+        <item>JUL - 7</item>
+        <item>AUG - 8</item>
+        <item>SEP - 9</item>
+        <item>OCT - 10</item>
+        <item>NOV - 11</item>
+        <item>DEC - 12</item>
+    </string-array>
+
+    <string-array name="status_arr">
+        <item>My Pending</item>
+        <item>All Pending</item>
+        <item>Completed</item>
+    </string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".enhanceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER NAME"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/txtcusname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAllCaps="true"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lblcrdlimittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requesting Credit Limit (Rs)"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_margin="5dp"
+        android:fontFamily="monospace"/>
+    <EditText
+        android:id="@+id/txtcrdlimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_box"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request reason"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorBlack"
+        />
+    <Spinner
+        android:id="@+id/spnReason"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_box"
+        android:padding="10dp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorBlack"
+        />
+    <EditText
+        android:id="@+id/txtreq_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/edittext_box"
+        android:fontFamily="monospace"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="REQUEST"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/button_style"
+            />
+    </LinearLayout>
+</RelativeLayout>

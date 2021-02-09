@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/lblcusname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:text="Customer Name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbldatetimex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorBlack"
+            android:text="Create date : " />
+    <TextView
+        android:id="@+id/lbldatetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/lbldatetimex"
+        android:text="Create date" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblenhancexx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Existing Limit : "
+            android:fontFamily="monospace"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/lblenhancex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs "
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@+id/lblenhancexx"
+            />
+
+        <TextView
+            android:id="@+id/lblenhance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@id/lblenhancex"
+            />
+
+
+        <TextView
+            android:id="@+id/lblstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:text="PENDING"/>
+        <TextView
+            android:id="@+id/lblstatusx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level : "
+            android:fontFamily="monospace"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"
+            android:layout_toLeftOf="@+id/lblstatus"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lbltype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Type : "
+            android:fontFamily="monospace"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/lblRtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LE"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="@color/colorRedOrange"
+            android:layout_toRightOf="@+id/lbltype"
+            />
+        <TextView
+            android:id="@+id/lblaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorOrange"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:text="FORWARD"/>
+        <TextView
+            android:id="@+id/lblactiontxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="monospace"
+            android:layout_toLeftOf="@+id/lblaction"
+            android:text="Last Action : "/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
